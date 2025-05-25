@@ -1,4 +1,31 @@
 @import url(https://themes.googleusercontent.com/fonts/css?kit=fpjTOVmNbO4Lz34iLyptLTi9jKYd1gJzj5O2gWsEpXoyck2WCYPEMNySjZN0CHed_kmCvy597kDopqFAXvpeaA);
+
+/* Image container styles */
+.image-container {
+  overflow: hidden;
+  display: inline-block;
+  margin: 0;
+  border: 0;
+  transform: rotate(0rad) translateZ(0px);
+  -webkit-transform: rotate(0rad) translateZ(0px);
+}
+
+/* Image styles */
+.image-container img {
+  width: 100%;
+  height: 100%;
+  margin-left: 0;
+  margin-top: 0;
+  transform: rotate(0rad) translateZ(0px);
+  -webkit-transform: rotate(0rad) translateZ(0px);
+}
+
+/* Page break styles */
+.page-break {
+  page-break-before: always;
+  display: none;
+}
+
 ol.lst-kix_list_7-0 {
   list-style-type: none;
 }
