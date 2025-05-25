@@ -1828,8 +1828,10 @@ table th {
 }
 .c21 {
   background-color: #ffffff;
-  max-width: 468pt;
-  padding: 72pt 72pt 72pt 72pt;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  /* padding: 72pt 72pt 72pt 72pt; */
 }
 .c26 {
   margin-left: 135pt;
